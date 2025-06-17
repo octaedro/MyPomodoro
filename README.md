@@ -1,4 +1,65 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# MyPomodoro
+
+A clean, minimalist Pomodoro timer for iOS and Android built with React Native. This application helps you manage your time and stay focused using the Pomodoro Technique.
+
+## Features
+
+- **Selectable Timer Durations**: Easily switch between common Pomodoro intervals: 25, 35, 45, and 60 minutes.
+- **Dynamic Timer Control**: Play or pause the active timer with a single tap on the timer display.
+- **Reset Functionality**: Instantly reset the timer back to the default 25-minute session.
+- **Audio & Haptic Feedback**: Receive a notification with sound and vibration when a Pomodoro session is complete.
+- **Sleek Interface**: A beautiful, dark-themed UI that's easy on the eyes.
+
+## Tech Stack
+
+- **React Native**: Core framework for building the native application.
+- **TypeScript**: For robust, type-safe code.
+- **React Native Vector Icons**: For crisp, high-quality icons.
+- **React Native Video**: For native audio playback for the alarm.
+
+## Getting Started
+
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [Watchman](https://facebook.github.io/watchman/) (for macOS)
+- [Xcode](https://developer.apple.com/xcode/) (for iOS development)
+- [Android Studio](https://developer.android.com/studio) (for Android development)
+- [CocoaPods](https://cocoapods.org/) (for iOS dependencies)
+
+### Installation & Running
+
+1.  **Clone the repository:**
+
+    ```bash
+    git clone <repository-url>
+    cd MyPomodoro
+    ```
+
+2.  **Install JavaScript dependencies:**
+
+    ```bash
+    npm install
+    ```
+
+3.  **Install native iOS dependencies:**
+
+    ```bash
+    cd ios && pod install
+    ```
+
+4.  **Run the application:**
+
+    - **For iOS:**
+
+      ```bash
+      npm run ios
+      ```
+
+    - **For Android:**
+      ```bash
+      npm run android
+      ```
 
 # Getting Started
 
@@ -58,40 +119,6 @@ npm run ios
 yarn ios
 ```
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+If everything is set up correctly, you should see the app running in the Android Emulator, iOS Simulator, or your connected device.
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+This is one way to run the app — you can also build it directly from Android Studio or Xcode.
