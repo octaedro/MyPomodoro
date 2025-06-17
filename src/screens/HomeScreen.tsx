@@ -5,7 +5,7 @@ import { TimerDisplay } from '../components/TimerDisplay';
 import { TimeOptions } from '../components/TimeOptions';
 import { ResetButton } from '../components/ResetButton';
 
-const POMODORO_OPTIONS = [1, 35, 45, 60];
+const POMODORO_OPTIONS = [25, 35, 45, 60];
 const INITIAL_TIME_MINUTES = POMODORO_OPTIONS[0];
 
 export const HomeScreen = () => {
